@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poly:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    max-width: 100vw;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 2rem;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_links{
+    text-decoration: none;
+    color: rgba(255, 232, 211, 1);
+    font-family: Poly;
+}
+
+
+.header_contact a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header_contact {
+    background-color: rgba(142, 98, 58, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    padding: .2rem .6rem;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 15px;
+}
+
+
+.home_container{
+    height: 100vh;
+    background-image: url(./bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-color: rgb(5, 5, 5);
+    font-family: Poppins;
+}
+
+.header_texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.header_texts h1{
+    width: 40rem;
+    font-size: 3.5rem;
+    color: rgba(255, 232, 211, 1);
+    font-family: Lora;
+}
+
+.header_texts p{
+    text-align: center;
+    width: 35rem;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+}
+
+input{
+    width: 28rem;
+    padding: .8rem 0;
+    padding-left: 2rem;
+    position: relative;
+    border-radius: 3px;
+    border: none;
+    font-family: Inter;
+}
+
+.icon1{
+    position: absolute;
+    z-index: 1;
+    top: 60.9%;
+    left: 36%;
+    cursor: pointer;
+}
+
+.icon2{
+    position: absolute;
+    top: 60.8%;
+    left: 63%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
