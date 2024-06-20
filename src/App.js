@@ -5,6 +5,7 @@ import Counter from './Components/Practice';
 import UserGreeting from './Components/UserGreeting';
 import NameList from './Components/NameList';
 import Home from './Home';
+import Cards from './Components/Cards';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList /> */}
       <Home />
+      <Cards />
     </div>
   );
 }
