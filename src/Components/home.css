@@ -155,6 +155,7 @@ input {
     background: linear-gradient(to bottom, rgba(36, 32, 27, 0.4), rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.02));
     border-radius: 10px;
     box-shadow: 0 0 8px gray;
+    width: 14rem;
 }
 
 .box h4 {
@@ -181,6 +182,15 @@ input {
     gap: 1rem;
     margin: 2rem 0;
     padding: 2rem 0;
+}
+
+.bottom_card h1{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: rgba(142, 98, 58, 1);
+    width: 26rem;
+    text-align: center;
+    font-family: Lora;
 }
 
 .bottom_styles {
@@ -216,7 +226,7 @@ input {
 .first_position h2 {
     position: absolute;
     z-index: 1;
-    top: 170%;
+    top: 184%;
     left: 10%;
     color: rgba(255, 232, 211, 1);
 }
@@ -224,7 +234,7 @@ input {
 .first_position a {
     position: absolute;
     z-index: 1;
-    top: 237%;
+    top: 248%;
     left: 10%;
     color: rgba(255, 237, 204, 1);
 }
@@ -232,7 +242,7 @@ input {
 .second_position h2 {
     position: absolute;
     z-index: 1;
-    top: 158%;
+    top: 170%;
     left: 36%;
     color: rgba(255, 232, 211, 1);
 }
@@ -240,7 +250,7 @@ input {
 .second_position a {
     position: absolute;
     z-index: 1;
-    top: 193%;
+    top: 205%;
     left: 36%;
     color: rgba(255, 237, 204, 1);
 }
@@ -248,7 +258,7 @@ input {
 .third_position h2 {
     position: absolute;
     z-index: 1;
-    top: 155%;
+    top: 170%;
     left: 60%;
     color: rgba(255, 232, 211, 1);
 }
@@ -256,7 +266,7 @@ input {
 .third_position a {
     position: absolute;
     z-index: 1;
-    top: 190%;
+    top: 205%;
     left: 60%;
     color: rgba(255, 237, 204, 1);
 }
@@ -265,7 +275,7 @@ input {
 .fourth_position h2 {
     position: absolute;
     z-index: 1;
-    top: 209%;
+    top: 222%;
     left: 38%;
     color: rgba(255, 232, 211, 1);
 }
@@ -273,7 +283,7 @@ input {
 .fourth_position a {
     position: absolute;
     z-index: 1;
-    top: 248%;
+    top: 260%;
     left: 38%;
     color: rgba(255, 237, 204, 1);
 }
@@ -282,7 +292,7 @@ input {
 .fifth_position h2 {
     position: absolute;
     z-index: 1;
-    top: 207%;
+    top: 220%;
     left: 65%;
     color: rgba(255, 232, 211, 1);
 }
@@ -290,9 +300,65 @@ input {
 .fifth_position a {
     position: absolute;
     z-index: 1;
-    top: 250%;
+    top: 264%;
     left: 65%;
     color: rgba(255, 237, 204, 1);
+}
+
+
+.hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: none;
+    /* Hide the hamburger menu by default */
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    transition: all 0.3s ease;
+}
+
+.hamburger.open .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
 }
 
 

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./home.css"
 import logo from "../images/newlogo.svg"
 import phone from "../images/phone.svg";
+import HamburgerMenu from "./HamburgerMenu";
 
 class Header extends Component {
   render() {
@@ -11,6 +12,7 @@ class Header extends Component {
           <a href="#home">
             <img className="logo" src={logo} alt="logo" />
           </a>
+          <HamburgerMenu />
           <nav>
             <ul>
               <li>

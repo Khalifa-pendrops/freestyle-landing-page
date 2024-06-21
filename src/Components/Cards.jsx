@@ -33,7 +33,7 @@ function Cards() {
             </div>
           </div>
           <div className="bottom_card">
-            <h1>A smater way to design your space</h1>
+            <h1>A Smater Way To Design Your Space</h1>
             <div className="bottom_styles">
               <div className="first_position">
                 <h2>Wardrop</h2>
